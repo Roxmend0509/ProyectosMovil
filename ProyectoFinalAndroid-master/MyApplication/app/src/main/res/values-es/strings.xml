@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">C O N F I G U R A C I O N</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="Acualizar">A C T U A L I Z A R</string>
+    <string name="eliminar">E L I M I N A R</string>
+    <string name="operacionarealizar">O P C I O N E S</string>
+    <string name="deceaeliminar">¿Deseas Eliminar Esto?</string>
+    <string name="advertenciaeliminar">Una vez borrado esto no se podra recuperar :(</string>
+    <string name="aceptar">A C E P T A R</string>
+    <string name="cancelar">C A N C E L A R</string>
+
+
+    <string name="recordatorionoeliminado">Recordatorio No Eliminado</string>
+    <string name="recordatorioeliminado">Recordatorio Eliminado</string>
+    <string name="recordatorioinsertado">Recordatorio Insertado</string>
+    <string name="recordatorionoinsertado">Recordatorio no Insertado</string>
+    <string name="recordatorioactualizado">Recordatorio Actualizado</string>
+    <string name="recordatorionoactualizado">Recordatorio no Actualizado</string>
+    <string name="agregarrecordatorio">Agregar Recordatorio</string>
+    <string name="actualizarrecordatorio">Actualizar Recordatorio</string>
+
+
+    <string name="doscamposobligatorios">LLENAR CAMPOS *OBLIGATORIOS*</string>
+
+
+    <string name="fechacreacion">Fecha de creacion:</string>
+    <string name="fechacumplimiento">"Fecha cumplimiento:</string>
+    <string name="horacumplimiento">Hora cumplimiento:</string>
+    <string name="estatuscumplida">Estatus Tarea:Cumplida</string>
+    <string name="estatusnocumplida">Estatus Tarea:no Cumplida</string>
+
+    <string name="fecha">F E C H A:</string>
+    <string name="hora">H O R A:</string>
+
+
+    <string name="notas">N O T A S</string>
+    <string name="tareas">R E C O R D A T O R I O S</string>
+
+
+    <string name="mostrararchivos">M U L T I M E D I A</string>
+    <string name="mostrarrecordatorios">A L A R M A</string>
+    <string name="actualizar">E D I T A R</string>
+    <string name="Eliminar">E L I M I N A R</string>
+
+
+    <string name="agregarnota">Agregar Nota</string>
+    <string name="actualizarnota">Actualizar Nota</string>
+    <string name="notainsertada">Nota Insertada</string>
+    <string name="notanoinsertada">Nota no Insertada</string>
+    <string name="notaactualizada">Nota Actualizada</string>
+    <string name="notanoactualizada">Nota no Actualizada</string>
+    <string name="notaeliminada">Nota Eliminada</string>
+    <string name="notanoeliminada">Nota No Eliminada</string>
+
+    <string name="marcarcomocumplida">Marcar como cumplida</string>
+    <string name="marcarcomonocumplida">Marcar como no cumplida</string>
+
+
+    <string name="agregartarea">Agregar Recordatorio</string>
+    <string name="actualizartarea">Actualizar Recordatorio</string>
+    <string name="tareainsertada">Recordatorio Insertado</string>
+    <string name="tareanoinsertada">Recordatorio no Insertado</string>
+    <string name="tareaactualizada">Recordatorio Actualizado</string>
+    <string name="tareanoactualizada">Recordatorio no Actualizado</string>
+    <string name="tareaeliminada">Recordatorio Eliminado</string>
+    <string name="tareanoeliminada">Recordatorio No Eliminado</string>
+
+    <string name="cuatrocamposobligatorios">LLENAR CAMPOS *OBLIGATORIOS*</string>
+
+    <string name="titulo">T I T U L O</string>
+    <string name="descripcion">D E S C R I P C I O N</string>
+    <string name="guardar">G U A R D A R</string>
+    <string name="salir">S A L I R</string>
+
+    <string name="fecha1">F E C H A</string>
+    <string name="hora1">H O R A</string>
+
+    <string name="buscar">B U S C A R</string>
+
+
+    <string name="addmultimedia">Agregar Archivo</string>
+
+
+    <string name="archivoinsertado">Registro Insertado</string>
+    <string name="archivonoinsertado">Registro no Insertado</string>
+    <string name="archivoeliminado">Registro Eliminado</string>
+    <string name="archivonoeliminado">Registro no eliminado</string>
+
+
+    <string name="archivoadjuntar">Debes poner la descripcion y adjuntar archivo</string>
+    <string name="permisonecesario">Este permiso es necesario</string>
+
+    <string name="str_en" >I N G L E S</string>
+    <string name="str_es" >E S P A Ñ O L</string>
+    <string name="dialogo">Cambiar idioma</string>
+    <string name="play">REPRODUCIR</string>
+    <string name="stop_record">DETENER</string>
+    <string name="grabar">GRABAR</string>
+
+
+        <string name="app_name">Mis Notitas</string>
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+        <string name="Aceptar">Aceptar</string>
+        <string name="Editar">Editar</string>
+        <string name="Cancelar">C A N C E L A R</string>
+        <string name="Titulo">T I T U L O</string>
+        <string name="Alarma">Alarma</string>
+        <string name="Return">Atrás</string>
+        <string name="action_agregar">Agregar</string>
+        <string name="settings">Configuracion</string>
+        <string name="Agregar">A G R E G A R</string>
+        <string name="Nota">Nota</string>
+        <string name="erase">Delete</string>
+        <string name="modify">Modify</string>
+        <string name="Guardar">G U A R D A R</string>
+        <string name="Reproducir">R E P R O D U C I R</string>
+        <string name="Detener">D E T E N E R</string>
+        <string name="Grabar">G R A B A R</string>
+        <string name="change">Cambiar Idioma</string>
+        <string name="Audio">A U D I O</string>
+        <string name="tomar">Tomar una Foto</string>
+        <string name="Tarea">Tarea</string>
+        <string name="Buscar">Buscar</string>
+        <string name="Fecha">F E C H A</string>
+        <string name="Hora">H O R A</string>
+        <string name="Mutltimedia">M U L T I M E D I A</string>
+        <string name="Galeria">Galeria</string>
+        <string name="SlideShow">Presentacion</string>
+        <string name="Configuracion">Configuracion</string>2
+        <string name="enviar">Enviar</string>
+        <string name="Compartir">Compartir</string>
+        <string name="Herramientas">Herramientas</string>
+        <string name="Descripcion">D E S C R I P C I O N</string>
+
+</resources>

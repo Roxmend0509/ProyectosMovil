@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre del Usuario"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="-216dp"
+        android:layout_marginTop="110dp"
+        />
+
+    <EditText
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Twitter"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="-215dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número de Telefono"
+        android:inputType="phone"
+        android:layout_marginLeft="-216dp"
+        android:layout_marginTop="190dp"
+        />
+
+    <EditText
+        android:id="@+id/fechanac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha de Nacimiento"
+        android:inputType="date"
+        android:layout_marginLeft="-215dp"
+        android:layout_marginTop="230dp"
+        />
+
+    <Button
+        android:id="@+id/guar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Guardar Contacto"
+        android:layout_marginLeft="-195dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Regresar"
+        android:layout_marginLeft="-165dp"
+        android:layout_marginTop="345dp"
+        />
+</LinearLayout>

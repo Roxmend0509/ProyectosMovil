@@ -1,0 +1,135 @@
+<resources>
+    <string name="action_settings">S E T T I N G S</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="Acualizar">U P D A T E</string>
+    <string name="eliminar">D E L E T E</string>
+    <string name="operacionarealizar">O P T I O N S</string>
+    <string name="deceaeliminar">Do you want to delete this?</string>
+    <string name="advertenciaeliminar">Once deleted this can not be recovered</string>
+    <string name="aceptar">A C C E P T </string>
+    <string name="cancelar">C A N C E L</string>
+
+
+    <string name="recordatorionoeliminado">Not eliminated Prompting</string>
+    <string name="recordatorioeliminado">Delete Reminder</string>
+    <string name="recordatorioinsertado">Insert Reminder</string>
+    <string name="recordatorionoinsertado">Not inserted Reminder</string>
+    <string name="recordatorioactualizado">Update Reminder</string>
+    <string name="recordatorionoactualizado">Not Update Reminder</string>
+    <string name="agregarrecordatorio">Add Reminder</string>
+    <string name="actualizarrecordatorio">Update Reminder</string>
+
+
+    <string name="doscamposobligatorios"> FILL OUT FIELDS *REQUIRED*</string>
+
+
+    <string name="fechacreacion">Date on of creation:</string>
+    <string name="fechacumplimiento">Date on fulfillment:</string>
+    <string name="horacumplimiento">Hour fulfillment:</string>
+    <string name="estatuscumplida">Task Status:Finish</string>
+    <string name="estatusnocumplida">Task Status:no Finish</string>
+
+    <string name="fecha">D A T E:</string>
+    <string name="hora">H O U R:</string>
+
+
+    <string name="notas">N O T E S</string>
+    <string name="tareas">R E M I N D E R</string>
+
+
+    <string name="mostrararchivos">M U L T I M E D I A</string>
+    <string name="mostrarrecordatorios">A L A R M</string>
+    <string name="actualizar">U P D A T E</string>
+    <string name="Eliminar">D E L E T E</string>
+
+
+    <string name="agregarnota">Add Note</string>
+    <string name="actualizarnota">Update Note</string>
+    <string name="notainsertada">Insert Note</string>
+    <string name="notanoinsertada">Not Insert Note</string>
+    <string name="notaactualizada">Note Update</string>
+    <string name="notanoactualizada">Not Note Update</string>
+    <string name="notaeliminada">Note Eliminated</string>
+    <string name="notanoeliminada">Not Note Eliminated</string>
+
+    <string name="marcarcomocumplida">to mark as fulfilled</string>
+    <string name="marcarcomonocumplida">to not mark fulfilled</string>
+
+
+    <string name="agregartarea">Add Reminder</string>
+    <string name="actualizartarea">Update Reminder</string>
+    <string name="tareainsertada">Inserted Reminder</string>
+    <string name="tareanoinsertada">Not inserted Reminder</string>
+    <string name="tareaactualizada">Reminder Update</string>
+    <string name="tareanoactualizada">Not Reminder Update</string>
+    <string name="tareaeliminada">Eliminated Reminder</string>
+    <string name="tareanoeliminada">Not Eliminated Reminder</string>
+
+    <string name="cuatrocamposobligatorios">FILL OUT FIELDS *REQUIRED*</string>
+
+    <string name="titulo">T I T T LE</string>
+    <string name="descripcion">D E S C R I P T I O N</string>
+    <string name="guardar">S A V E</string>
+    <string name="salir">E X I T</string>
+
+    <string name="fecha1">D A T E</string>
+    <string name="hora1">H O U R</string>
+
+    <string name="buscar">S E A R C H</string>
+
+    <string name="addmultimedia">Add File</string>
+
+
+    <string name="archivoinsertado">Insert Record</string>
+    <string name="archivonoinsertado">Not Insert Record</string>
+    <string name="archivoeliminado">Delete Record</string>
+    <string name="archivonoeliminado">No Delete Record</string>
+
+
+    <string name="archivoadjuntar">You must put the description and attaching file</string>
+    <string name="permisonecesario">This permission is necessary </string>
+    <string name="dialogo">Change language</string>
+    <string name="play">PLAY</string>
+    <string name="stop_record">STOP</string>
+    <string name="grabar">RECORD</string>
+
+    <string name="str_en" >E N G L I S H</string>
+    <string name="str_es" >S P A N I S H</string>
+
+    <string name="app_name">My Notes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Aceptar">Acept</string>
+    <string name="Editar">Edit</string>
+    <string name="Cancelar">C A N C E L</string>
+    <string name="Titulo">T I T L E</string>
+    <string name="Alarma">Alarm</string>
+    <string name="settings">Config</string>
+    <string name="Return">Return</string>
+    <string name="action_agregar">A D D</string>
+    <string name="Importar">Import</string>
+    <string name="Galeria">Gallery</string>
+    <string name="Configuracion">Config</string>
+    <string name="Hora">H O U R</string>
+    <string name="Fecha">D A T E</string>
+    <string name="Guardar">S A V E</string>
+    <string name="Reproducir">P L A Y</string>
+    <string name="Detener">S T O P</string>
+    <string name="Grabar">R E C O R D</string>
+    <string name="Audio">A U D I O</string>
+    <string name="tomar">Take a Picture</string>
+    <string name="Mutltimedia">Multimedia</string>
+    <string name="Agregar">Add</string>
+    <string name="change">Change Languages</string>
+    <string name="Buscar">Search</string>
+    <string name="SlideShow">Slide</string>
+    <string name="Comunicar">Com</string>
+    <string name="enviar">send</string>
+    <string name="Compartir">share</string>
+    <string name="Herramientas">Tools</string>
+    <string name="Descripcion">D E S C R I P T I O N</string>
+    <string name="Nota">Note</string>
+    <string name="Tarea">Task</string>
+
+</resources>

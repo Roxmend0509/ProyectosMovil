@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RadioButton
+        android:id="@+id/optInterna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Memoria Interna" />
+
+    <RadioButton
+        android:id="@+id/optExterna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memoria Externa" />
+
+    <RadioGroup
+        android:id="@+id/optgAlmacenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+
+    </RadioGroup>
+
+    <TextView android:text="Escribe un mensaje :) "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.35" />
+
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.76"
+        android:inputType="textMultiLine" />
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Abrir un Archivo"
+            android:onClick="btnAbrir_click"
+            android:id="@+id/button"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Guardar el Mensaje"
+            android:onClick="btnGuardar_click"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
+    </RelativeLayout>
+
+</LinearLayout>
