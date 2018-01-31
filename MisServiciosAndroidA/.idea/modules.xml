@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MisServiciosAndroidA.iml" filepath="$PROJECT_DIR$/MisServiciosAndroidA.iml" />
+      <module fileurl="file://C:\Users\Rox\Desktop\ProyectosMovil_Roxa\MisServiciosAndroidA\MisServiciosAndroidA.iml" filepath="C:\Users\Rox\Desktop\ProyectosMovil_Roxa\MisServiciosAndroidA\MisServiciosAndroidA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Rox\Desktop\ProyectosMovil_Roxa\MisServiciosAndroidA\app\app.iml" filepath="C:\Users\Rox\Desktop\ProyectosMovil_Roxa\MisServiciosAndroidA\app\app.iml" />
     </modules>
   </component>
 </project>

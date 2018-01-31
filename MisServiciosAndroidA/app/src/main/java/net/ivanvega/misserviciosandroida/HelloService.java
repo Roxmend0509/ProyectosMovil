@@ -3,6 +3,7 @@ package net.ivanvega.misserviciosandroida;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.Binder;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
@@ -13,6 +14,8 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.util.Random;
+
 /**
  * Created by alcohonsilver on 26/01/18.
  */
@@ -21,8 +24,11 @@ public class HelloService extends Service {
     private Looper mServiceLooper;
     private ServiceHandler mServiceHandler;
 
+
+
     // Handler that receives messages from the thread
     private final class ServiceHandler extends Handler {
+
         public ServiceHandler(Looper looper) {
             super(looper);
         }
@@ -71,7 +77,7 @@ public class HelloService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Toast.makeText(this, "service starting", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "hola :)", Toast.LENGTH_SHORT).show();
 
         // For each start request, send a message to start a job and deliver the
         // start ID so we know which request we're stopping when we finish the job
@@ -83,14 +89,34 @@ public class HelloService extends Service {
         return START_STICKY;
     }
 
-    @Nullable
+    // Binder given to clients
+    private final IBinder mBinder = (IBinder) new LocalBinder();
+    // Random number generator
+    private final Random mGenerator = new Random();
+
+    /**
+     * Class used for the client Binder.  Because we know this service always
+     * runs in the same process as its clients, we don't need to deal with IPC.
+     */
+    public class LocalBinder extends Binder {
+        HelloService getService() {
+            // Return this instance of LocalService so clients can call public methods
+            return HelloService.this;
+        }
+    }
+
     @Override
     public IBinder onBind(Intent intent) {
-        return null;
+        return mBinder;
+    }
+
+    /** method for clients */
+    public int getRandomNumber() {
+        return mGenerator.nextInt(100);
     }
 
     @Override
     public void onDestroy() {
-        Toast.makeText(this, "service done", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "adios :)", Toast.LENGTH_SHORT).show();
     }
 }
