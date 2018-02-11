@@ -9,7 +9,7 @@
         android:title="Operaciones"
         app:showAsAction="never" />
     <item
-        android:id="@+id/actualizar"
+        android:id="@+id/editar"
         android:orderInCategory="100"
         android:title="Actualizar Lista"
         app:showAsAction="never" />

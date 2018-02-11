@@ -13,19 +13,10 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
-        <EditText
-            android:id="@+id/txtbuscar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Buscar por Nombre"
-            android:inputType="textFilter"
-            android:textColor="@color/colorPrimary"
-            android:textColorLink="@android:color/holo_blue_dark"
-            android:textSize="20dp" />
+
 
         <ListView
-            android:id="@+id/listaContactos"
+            android:id="@+id/lst"
             style="@style/Widget.AppCompat.Light.ListView.DropDown"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -35,5 +26,4 @@
             android:headerDividersEnabled="false"
             android:scrollbars="horizontal|vertical" />
     </LinearLayout>
-
 </android.support.constraint.ConstraintLayout>

@@ -25,7 +25,7 @@ public class ServicioMusica extends Service implements MediaPlayer.OnPreparedLis
     public void onCreate() {
         Toast.makeText(this,"Servicio creado",
                 Toast.LENGTH_SHORT).show();
-        reproductorM = MediaPlayer.create(this,R.raw.audio);
+        reproductorM = MediaPlayer.create(this,R.drawable.raw.audio);
     }
 
     // @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
