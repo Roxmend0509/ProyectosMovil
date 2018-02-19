@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog.Builder adb = new AlertDialog.Builder(this);
             adb.setTitle("Elimniar usuario");
             adb.setMessage("Deseas eliminar el usuario?");
-            adb.setIcon(R.mipmap.ic_launcher);
+            adb.setIcon(R.mipmap.ic_launcher_round);
             adb.setPositiveButton("Si", new DialogInterface.OnClickListener() {
 
                 @Override
@@ -191,15 +191,15 @@ public class MainActivity extends AppCompatActivity {
         final TextView txtpass = dialog.findViewById(R.id.txtcontrasenia);
 
         if(operacion==0) {
-            dialog.setTitle("Agregar Usuariio");
-            btnguardar.setText("Agregar");
+            dialog.setTitle("Agregar Usuario");
+            btnguardar.setText("Guardar");
 
             txtnombre.setText("");
             txtemail.setText("");
             txtpass.setText("");
         }else if(operacion==1){
-            dialog.setTitle("Actializar Usuario");
-            btnguardar.setText("Actualizar");
+            dialog.setTitle("Editar Usuario");
+            btnguardar.setText("Editar");
 
             txtnombre.setText(listanombres.get(_idUsuario));
             txtemail.setText(listaemails.get(_idUsuario));
@@ -268,7 +268,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    String operaciones[]= {"Eliminar","Actualizar"};
+    String operaciones[]= {"Eliminar","Editar Usuario"};
     public void  btnList_click(){
 
         AlertDialog dialog =

@@ -52,13 +52,11 @@
             <Button
                 android:id="@+id/btnguardar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/holo_blue_bright"
-                android:text="AGREGAR"
+                android:layout_height="168dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Agregar Usuario"
                 android:textSize="18sp" />
 
         </LinearLayout>
-
-
     </LinearLayout>
 </LinearLayout>
