@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="Acualizar">Update</string>
+    <string name="eliminar">Delete</string>
+    <string name="operacionarealizar">Operation to realize</string>
+    <string name="deceaeliminar">This sure to Delete?</string>
+    <string name="advertenciaeliminar">If you eliminate this record you will be able to recover</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+
+
+    <string name="recordatorionoeliminado">Not eliminated Prompting</string>
+    <string name="recordatorioeliminado">Delete Reminder</string>
+    <string name="recordatorioinsertado">Insert Reminder</string>
+    <string name="recordatorionoinsertado">Not inserted Reminder</string>
+    <string name="recordatorioactualizado">Update Reminder</string>
+    <string name="recordatorionoactualizado">Not Update Reminder</string>
+    <string name="agregarrecordatorio">Add Reminder</string>
+    <string name="actualizarrecordatorio">Update Reminder</string>
+
+
+    <string name="doscamposobligatorios">The 2 Fields are Obligatory</string>
+
+
+    <string name="fechacreacion">Date on of creation:</string>
+    <string name="fechacumplimiento">Date on fulfillment:</string>
+    <string name="horacumplimiento">Hour fulfillment:</string>
+    <string name="estatuscumplida">Task Status:Finish</string>
+    <string name="estatusnocumplida">Task Status:no Finish</string>
+
+    <string name="fecha">Date:</string>
+    <string name="hora">Hour:</string>
+
+
+    <string name="notas">Notes</string>
+    <string name="tareas">Tasks</string>
+
+
+    <string name="mostrararchivos">Show Files</string>
+    <string name="mostrarrecordatorios">Show Reminder</string>
+    <string name="actualizar">Update</string>
+    <string name="Eliminar">Delete</string>
+
+
+    <string name="agregarnota">Add Note</string>
+    <string name="actualizarnota">Update Note</string>
+    <string name="notainsertada">Insert Note</string>
+    <string name="notanoinsertada">Not Insert Note</string>
+    <string name="notaactualizada">Note Update</string>
+    <string name="notanoactualizada">Not Note Update</string>
+    <string name="notaeliminada">Note Eliminated</string>
+    <string name="notanoeliminada">Not Note Eliminated</string>
+
+    <string name="marcarcomocumplida">to mark as fulfilled</string>
+    <string name="marcarcomonocumplida">to not mark fulfilled</string>
+
+
+    <string name="agregartarea">Add Task</string>
+    <string name="actualizartarea">Update Task</string>
+    <string name="tareainsertada">Inserted task</string>
+    <string name="tareanoinsertada">Not inserted task</string>
+    <string name="tareaactualizada">Task Update</string>
+    <string name="tareanoactualizada">Not Task Update</string>
+    <string name="tareaeliminada">Eliminated task</string>
+    <string name="tareanoeliminada">Not Eliminated task</string>
+
+    <string name="cuatrocamposobligatorios">The 4 Fields are Obligatory</string>
+
+    <string name="titulo">Title</string>
+    <string name="descripcion">Description</string>
+    <string name="guardar">Save</string>
+    <string name="salir">Exit</string>
+
+    <string name="fecha1">Date</string>
+    <string name="hora1">Hour</string>
+
+    <string name="buscar">Search</string>
+
+    <string name="addmultimedia">Add File</string>
+
+
+    <string name="archivoinsertado">Insert Record</string>
+    <string name="archivonoinsertado">Not Insert Record</string>
+    <string name="archivoeliminado">Delete Record</string>
+    <string name="archivonoeliminado">No Delete Record</string>
+
+
+    <string name="archivoadjuntar">You must put the description and attaching file</string>
+    <string name="permisonecesario">This permission is necessary </string>
+    <string name="dialogo">Change language</string>
+    <string name="play">Play</string>
+    <string name="stop_record">Stop</string>
+    <string name="grabar">Record</string>
+
+
+</resources>

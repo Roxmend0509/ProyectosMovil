@@ -1,0 +1,28 @@
+create table Notas(
+    _id integer primary key autoincrement,
+    Titulo varchar(30) not null,
+    Descripcion text null,
+    tipo char(1) not null, -- n=nota t=tarea
+    fecha datetime null,
+    estado char(1) not null default 'n' -- n=nocumplida c=cumplida
+);
+
+
+create table Multimedia(
+    _id integer primary key autoincrement,
+    Archivo blob not null,
+    Descripcion text,
+    Nota int not null,
+    foreign key (Nota)
+    references Notas(_id)
+    on delete cascade
+);
+
+create table Recordatorios(
+    _id integer primary key autoincrement,
+    Fecha datetime not null,
+    Nota int not null,
+    foreign key (Nota)
+    references Notas(_id)
+    on delete cascade
+);

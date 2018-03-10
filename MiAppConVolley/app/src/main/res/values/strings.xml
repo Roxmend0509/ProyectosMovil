@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">MiAppConVolley</string>
+
+    <string-array name="array_category">
+        <item>Random</item>
+        <item>Tecnologia</item>
+        <item>Arquitectura</item>
+        <item>Animales</item>
+    </string-array>
+
+    <string-array name="array_styles">
+        <item>Color</item>
+        <item>Sepia</item>
+        <item>Grises</item>
+    </string-array>
+
+</resources>

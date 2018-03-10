@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoGeolocalizacionMovil</string>
+    <string name="login">App Geolocalizacion Móvil</string>
+    <string name="menu">Menú</string>
+    <string name="lugares">Lugares Registrados</string>
+    <string name="obtener_ubicacion">Obtener ubicación</string>
+    <string name="guardar_ubicacion">Guardar ubicación</string>
+</resources>

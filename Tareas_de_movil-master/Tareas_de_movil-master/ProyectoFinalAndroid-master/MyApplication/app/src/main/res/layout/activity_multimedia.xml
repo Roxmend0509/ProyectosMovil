@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gerardo.myapplication.appupdatenotas">
+
+
+    <RelativeLayout
+        android:layout_width="376dp"
+        android:layout_height="284dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="-5dp">
+
+        <EditText
+            android:id="@+id/txtdescripcion"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="@string/descripcion"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnsalir"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnoperacion"
+            android:layout_alignBottom="@+id/btnoperacion"
+            android:layout_toEndOf="@+id/btnoperacion"
+            android:layout_toRightOf="@+id/btnoperacion"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="@string/salir" />
+
+        <Button
+            android:id="@+id/btnoperacion"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btngrabarvideo"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="?attr/colorControlActivated"
+            android:text="@string/guardar" />
+
+        <ImageButton
+            android:id="@+id/btntomarfoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtdescripcion"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Foto"
+            app:srcCompat="@mipmap/camarita" />
+
+        <ImageButton
+            android:id="@+id/btngrabarvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnaudio"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/btnaudio"
+            android:layout_toStartOf="@+id/btnaudio"
+            android:background="@android:color/background_light"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Video"
+            app:srcCompat="@mipmap/videocamara" />
+
+        <ImageButton
+            android:id="@+id/btnaudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtdescripcion"
+            android:layout_toLeftOf="@+id/btnsalir"
+            android:layout_toStartOf="@+id/btnsalir"
+            android:background="@mipmap/camara"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Audio"
+            app:srcCompat="@mipmap/mic" />
+
+        <Button
+            android:id="@+id/btnRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnoperacion"
+            android:text="@string/grabar"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnStopRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnRecord"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/btnRecord"
+            android:layout_toRightOf="@+id/btnRecord"
+            android:text="@string/stop_record"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnPlayLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnStopRecord"
+            android:layout_alignEnd="@+id/btnsalir"
+            android:layout_alignRight="@+id/btnsalir"
+            android:text="@string/play"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/btnAdjuntar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnoperacion"
+            android:layout_below="@+id/txtdescripcion"
+            android:layout_toEndOf="@+id/btnaudio"
+            android:layout_toRightOf="@+id/btnaudio"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@mipmap/clipsitobb2" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

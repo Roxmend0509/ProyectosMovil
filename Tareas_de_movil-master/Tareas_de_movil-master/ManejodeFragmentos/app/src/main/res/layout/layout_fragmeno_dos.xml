@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <CheckBox
+        android:id="@+id/checkBoxFragmento2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name Fragmento 2" />
+
+    <Button
+        android:id="@+id/btnFragmento2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn fragmento 2" />
+
+
+
+</LinearLayout>
