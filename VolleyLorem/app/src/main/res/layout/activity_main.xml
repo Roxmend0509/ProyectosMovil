@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:orientation="vertical"
+    tools:context="com.example.roxana.volleylorem.MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="100px"
+        android:text="Selecciona los datos que desees"/>
+
+    <TextView
+        android:id="@+id/lblid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Id de la Imagen: 0"/>
+
+    <SeekBar
+        android:id="@+id/seekId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1920" />
+
+
+    <TextView
+        android:id="@+id/lblalto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Alto de la Imagen: 0"/>
+
+    <SeekBar
+        android:id="@+id/seekAlto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1920" />
+    <TextView
+        android:id="@+id/lblancho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Acho de la Imagen: 0"/>
+
+    <SeekBar
+        android:id="@+id/seekAncho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1920" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerGravity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Imagen"
+        android:onClick="clic"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:scaleType="fitCenter" />
+
+
+</LinearLayout>

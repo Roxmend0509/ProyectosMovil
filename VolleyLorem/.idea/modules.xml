@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VolleyLorem.iml" filepath="$PROJECT_DIR$/VolleyLorem.iml" />
+      <module fileurl="file://C:\Users\Rox\Desktop\ProyectosMovil_Roxa\VolleyLorem\VolleyLorem.iml" filepath="C:\Users\Rox\Desktop\ProyectosMovil_Roxa\VolleyLorem\VolleyLorem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Rox\Desktop\ProyectosMovil_Roxa\VolleyLorem\app\app.iml" filepath="C:\Users\Rox\Desktop\ProyectosMovil_Roxa\VolleyLorem\app\app.iml" />
+    </modules>
+  </component>
+</project>
