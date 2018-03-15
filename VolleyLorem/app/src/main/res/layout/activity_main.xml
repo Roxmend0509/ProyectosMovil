@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
         android:textSize="100px"
-        android:text="Selecciona los datos que desees"/>
+        android:text="Ingresa los datos de la Imagen"/>
 
     <TextView
         android:id="@+id/lblid"
@@ -27,7 +27,7 @@
         android:id="@+id/seekId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="1920" />
+        android:max="999" />
 
 
     <TextView

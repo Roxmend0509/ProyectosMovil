@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 Anton Kaliturin <kaliturin@gmail.com>
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not
+  ~ use this file except in compliance with the License. You may obtain a copy of
+  ~ the License at 
+  ~
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  ~ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+  ~ License for the specific language governing permissions and limitations under
+  ~ the License.
+  -->
+
+<resources>
+    <string name="app_name">Lista Negra</string>
+    <string name="Open_navigation_drawer">Open navigation drawer</string>
+    <string name="Close_navigation_drawer">Close navigation drawer</string>
+    <string name="Settings_action">Ajustes</string>
+    <string name="Calls_blocking">Llamadas Bloqueadas</string>
+    <string name="Calls_blocking_notification">Notificacion de Llamada Bloqueada</string>
+    <string name="App_interface">Application interface</string>
+    <string name="File_path">File path</string>
+    <string name="Block_calls_from_black_list">Bloquear llamadas de números que esten en La Lista Negra</string>
+    <string name="All_calls">Todas las Llamadas</string>
+    <string name="Remove_from_call_log">Remover llamadas bloqueadas de el Historial de Llamadas</string>
+    <string name="Status_bar">Estatus de la Bara</string>
+    <string name="Sound">"Sonido"</string>
+    <string name="Vibration">"Vibración"</string>
+    <string name="From_contacts_list">Lista de Contactos Agregados</string>
+    <string name="From_calls_list">Lista del Historial de Llamadas</string>
+    <string name="From_Black_list">Lista Negra</string>
+    <string name="Manually">Manualmente</string>
+    <string name="List_of_contacts">Lista de Contactos</string>
+    <string name="List_of_calls">Historial de Llamadas</string>
+    <string name="Black_list">Lista Negra</string>
+    <string name="Journal">Historial</string>
+    <string name="Settings">Ajustes</string>
+    <string name="Information">Información</string>
+    <string name="Exit">Salir</string>
+    <string name="Call_log">LLamada Entrante</string>
+    <string name="Select_all">Seleccionar Todo</string>
+    <string name="SELECT_ALL">SELECCIONAR TODO</string>
+    <string name="DELETE">ELIMINAR</string>
+    <string name="CANCEL">CANCELAR</string>
+    <string name="ADD">AÑADIR</string>
+    <string name="OK">OK</string>
+    <string name="Add_contact">Añadir un contacto</string>
+    <string name="Add_number">Añadir un número</string>
+    <string name="Adding_contact">Añadiendo un Contacto</string>
+    <string name="Saving_">Guardando...</string>
+    <string name="Loading_">Cargando...</string>
+    <string name="call_is_blocked">Llamada Bloqueado</string>
+    <string name="Private_number">Número Privado</string>
+    <string name="Search_action">Buscar</string>
+    <string name="Starts_with">Inicia con:</string>
+    <string name="Ends_with">Termina con:</string>
+    <string name="Contains">Contenidos:</string>
+    <string name="No_text">No texto</string>
+    <string name="Contact_name_">Nombre de Contacto:</string>
+    <string name="Contact_name_nn">No necesario</string>
+    <string name="Phone_number">Número de Telefono</string>
+    <string name="Enter_phone_number">Ingresa el número de telefono</string>
+    <string name="Add_another">Añadir Otro</string>
+    <string name="Unnamed">Sin nombre</string>
+    <string name="Edit_contact">Editar Contacto</string>
+    <string name="Editing_contact">Editando Contacto</string>
+    <string name="SAVE">GUARDAR</string>
+    <string name="Delete_record">Eliminar Llamada</string>
+    <string name="Copy_number">Copiar número</string>
+    <string name="Copy_text">Copiar Texto</string>
+    <string name="Remove_contact">Remover Contacto</string>
+    <string name="needs_permission">Necesitas el permiso</string>
+    <string name="needs_permissions">Necesitamos los permisos</string>
+    <string name="Delete_thread">Borrar Hilo</string>
+    <string name="Write_message">Escribir Mensaje</string>
+    <string name="Add_from_contacts">Añadir para contactos</string>
+    <string name="Enter_message">Ingresar Mensaje</string>
+    <string name="Send">Enviar</string>
+    <string name="Delete_message">Eliminar Mensaje</string>
+    <string name="Copy_message">Copiar Mensaje</string>
+    <string name="Generic_failure">Error: Fallo Generado</string>
+    <string name="No_service">Error: No Servicio</string>
+    <string name="Null_PDU">Error: null PDU</string>
+    <string name="Radio_off">Error:Radio Apagado</string>
+    <string name="Unknown_error">Error Desconocido</string>
+    <string name="Ringtone_picker">Tomar Sonido</string>
+    <string name="Menu_button">Boton Menú</string>
+    <string name="Error_file_already_exists">Error: El Archivo ya Existe</string>
+    <string name="Error_invalid_file_path">Error: Ruta del Archivo Invalido</string>
+    <string name="Error_on_file_path_creating">Error la ruta del archivo ya existe</string>
+    <string name="Error_on_file_writing">Error el archivo ya esta escrito</string>
+    <string name="Export_complete">Exportación completa</string>
+    <string name="Error_file_is_not_valid">Error: Archivo es no valido</string>
+    <string name="Error_on_old_data_deletion">Error un dato viejo eliminado</string>
+    <string name="Import_complete">Importado completamente</string>
+    <string name="List_is_empty">Lista vacía</string>
+    <string name="Logo_motto">Aplicación para Bloquear Llamadas</string>
+    <string name="Go_to_Journal_at_start">Ir a el Evento Iniciado de la Aplicación</string>
+    <string name="Exit_on_back_pressed">No existe la aplicación en el celular \"Regresar\" Boton Presionar</string>
+    <string name="Back_button">\"Regresar\" Boton</string>
+    <string name="Find_similar_records">Encuentra una Llamada Similar</string>
+    <string name="Copied_to_clipboard">Copiar Grabación</string>
+
+    <string-array name="phone_metadata">
+        <item>equals to:</item>
+        <item>contains:</item>
+        <item>starts with:</item>
+        <item>ends with:</item>
+    </string-array>
+
+</resources>

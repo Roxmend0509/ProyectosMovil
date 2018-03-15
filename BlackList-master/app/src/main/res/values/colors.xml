@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors -->
+    <color name="edit_d">#1b3b3e</color>
+    <color name="accent_d">#ffffff</color>
+    <color name="accent2_d">#1675c9</color>
+    <color name="border_d">#93316c</color>
+    <color name="checked_d">#90a7b3</color>
+    <color name="titleBackground_d">#af404b</color>
+    <color name="pressed_d">#98cbce</color>
+    <color name="text_d">#3700ff</color>
+    <color name="text2_d">#1d64a7</color>
+    <color name="link_d">#c9126d</color>
+</resources>

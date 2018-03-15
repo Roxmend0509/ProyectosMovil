@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         alto.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                lblAlto.setText("Alto " + i);
+                lblAlto.setText("Alto de la Imagen: " + i);
             }
 
             @Override
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         ancho.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                lblAncho.setText("Ancho " + i);
+                lblAncho.setText("Ancho de la Imagen: " + i);
             }
 
             @Override
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         id.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                lblId.setText("Id " + i);
+                lblId.setText("Id de la Imagen: " + i);
             }
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {

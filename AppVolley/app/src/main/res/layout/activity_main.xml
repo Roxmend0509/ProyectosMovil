@@ -9,19 +9,24 @@
     tools:context="jese.example.com.appvolley.MainActivity">
 
 
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:scaleType="fitCenter" />
 
     <TextView
         android:id="@+id/lblid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        android:text="Id de la Imagen: 0"/>
+        android:text="Id: 0"/>
 
     <SeekBar
         android:id="@+id/seekId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="1920" />
+        android:max="1000" />
 
 
     <TextView
@@ -29,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        android:text="Alto de la Imagen: 0"/>
+        android:text="Alto: 0"/>
 
     <SeekBar
         android:id="@+id/seekAlto"
@@ -41,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        android:text="Acho de la Imagen: 0"/>
+        android:text="Ancho: 0"/>
 
     <SeekBar
         android:id="@+id/seekAncho"
@@ -64,14 +69,10 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buscar Imagen"
+        android:text="Encontrar imagen"
         android:onClick="clic"/>
 
-    <ImageView
-        android:id="@+id/imagen"
-        android:layout_width="match_parent"
-        android:layout_height="500px"
-        android:scaleType="fitCenter" />
+
 
 
 </LinearLayout>
