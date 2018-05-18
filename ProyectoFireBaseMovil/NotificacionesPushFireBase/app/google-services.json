@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "736209475658-cv3srm9maeg1l68djj4ol2i2uhto4on5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "roxana.example.com.notificacionespushfirebase",
+            "certificate_hash": "0f1cd5cf2c8d095b9685c0defabc1d06b5d15a62"
+          }
+        },
+        {
           "client_id": "736209475658-vlth9bq1h503l8q6vsujd2v3b11tp7pj.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736209475658-vlth9bq1h503l8q6vsujd2v3b11tp7pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

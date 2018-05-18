@@ -42,7 +42,7 @@ public class RegUsuario extends Activity implements OnClickListener {
 		btnC.setText("Cancelar");
 		if (accion.equals("insert")){
 			this.setTitle("Registrar Usuario");
-			btnG.setText("Guardar");
+			ñ-btnG.setText("Guardar");
 		}
 		
 		if (accion.equals("edit")){
