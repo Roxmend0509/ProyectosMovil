@@ -9,19 +9,13 @@ import com.google.firebase.iid.FirebaseInstanceIdService;
 
 public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
-    private static final String TAG = "MyFirebaseIIDService";
+public static final String TAG="Mensajes";
 
     @Override
     public void onTokenRefresh() {
-        // Get updated InstanceID token.
-        String refreshedToken = FirebaseInstanceId.getInstance().getToken();
-        Log.d(TAG, "Refreshed token: " + refreshedToken);
+        super.onTokenRefresh();
 
-        // If you want to send messages to this application instance or
-        // manage this apps subscriptions on the server side, send the
-        // Instance ID token to your app server.
-        SharedPreferences preferences =
-                PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        preferences.edit().putString(Constants.FIREBASE_TOKEN, refreshedToken).apply();
+        String token=FirebaseInstanceId.getInstance().getToken();
+        Log.d(TAG,"Token: "+token);
     }
 }
